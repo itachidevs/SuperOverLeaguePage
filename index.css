@@ -1,0 +1,33 @@
+#root {
+  background-color: #0f172a;
+  font-family: Roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 12px;
+}
+.heading {
+  color: white;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.image {
+  width: 50%;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
